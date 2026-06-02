@@ -1,4 +1,4 @@
-import type { Search } from '../jsonapi';
+import type { Search } from '../jsonapi/index.js';
 
 export function joinPath(...parts: string[]): string {
 	const joined = parts

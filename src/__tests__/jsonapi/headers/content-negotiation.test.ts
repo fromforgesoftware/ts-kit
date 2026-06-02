@@ -4,7 +4,7 @@ import {
 	buildAcceptHeader,
 	buildContentTypeHeader,
 	parseMediaType,
-} from '../../../jsonapi';
+} from '../../../jsonapi/index.js';
 
 describe('content negotiation helpers', () => {
 	it('emits the bare media type when no params are given', () => {

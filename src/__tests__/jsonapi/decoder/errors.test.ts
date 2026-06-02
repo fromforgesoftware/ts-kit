@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { Decoder, JsonApi, Resource } from '../../../jsonapi';
+import { Decoder, JsonApi, Resource } from '../../../jsonapi/index.js';
 
 @JsonApi({ type: 'articles' })
 class Article extends Resource {}

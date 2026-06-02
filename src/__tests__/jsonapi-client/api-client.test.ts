@@ -1,6 +1,6 @@
 import 'reflect-metadata';
 import { describe, expect, it, vi } from 'vitest';
-import { Attribute, JsonApi, Op, Query, Resource } from '../../jsonapi';
+import { Attribute, JsonApi, Op, Query, Resource } from '../../jsonapi/index.js';
 import {
 	ApiClient,
 	ApiError,
@@ -9,7 +9,7 @@ import {
 	type HttpAdapter,
 	type HttpRequest,
 	type HttpResponse,
-} from '../../jsonapi-client';
+} from '../../jsonapi-client/index.js';
 
 @JsonApi({ type: 'workspaces' })
 class Workspace extends Resource {

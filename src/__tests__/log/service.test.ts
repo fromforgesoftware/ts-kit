@@ -5,7 +5,7 @@ import {
 	LogService,
 	type LogEntry,
 	type LogPublisher,
-} from '../../log';
+} from '../../log/index.js';
 
 class MemoryPublisher implements LogPublisher {
 	entries: { entry: LogEntry; formatted: string }[] = [];

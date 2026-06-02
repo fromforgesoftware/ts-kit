@@ -1,6 +1,6 @@
 import { DateTime, Duration } from 'luxon';
-import { resolveFormat, getHourCycle } from './config';
-import { ForgeDate } from './ForgeDate';
+import { resolveFormat, getHourCycle } from './config.js';
+import { ForgeDate } from './ForgeDate.js';
 
 /**
  * ForgeTime - Static utility class for time-string and duration-number operations.

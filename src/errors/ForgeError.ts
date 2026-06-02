@@ -1,4 +1,4 @@
-import type { ErrorCode, ForgeErrorOptions } from './types';
+import type { ErrorCode, ForgeErrorOptions } from './types.js';
 
 /**
  * Default user-facing messages for each error code.

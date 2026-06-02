@@ -3,8 +3,8 @@
  * Use in repositories that call APIs via fetch instead of Axios.
  */
 
-import { ForgeError } from '../errors/ForgeError';
-import type { ErrorCode } from '../errors/types';
+import { ForgeError } from '../errors/ForgeError.js';
+import type { ErrorCode } from '../errors/types.js';
 
 const STATUS_TO_CODE: Record<number, ErrorCode> = {
 	400: 'VALIDATION_ERROR',

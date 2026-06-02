@@ -5,10 +5,10 @@ import type {
 	WorkairAxiosInstance,
 	WorkairRequestConfig,
 	ApiErrorResponse,
-} from './types';
-import { logger } from '../legacy-logger';
-import { requestStore } from './requestStore';
-import { ForgeError } from '../errors/ForgeError';
+} from './types.js';
+import { logger } from '../legacy-logger/index.js';
+import { requestStore } from './requestStore.js';
+import { ForgeError } from '../errors/ForgeError.js';
 
 type RefreshSubscriber = (token: string | null, error?: ForgeError) => void;
 

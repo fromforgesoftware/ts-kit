@@ -1,4 +1,4 @@
-import { type LogLevel, logLevelName } from './level';
+import { type LogLevel, logLevelName } from './level.js';
 
 export interface LogEntry {
 	appName?: string;

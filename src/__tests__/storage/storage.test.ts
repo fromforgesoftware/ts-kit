@@ -5,7 +5,7 @@ import {
 	WebStorageAdapter,
 	createSafeStorage,
 	type SafeStorage,
-} from '../../storage';
+} from '../../storage/index.js';
 
 describe('MemoryStorage', () => {
 	it('round-trips items + reports length', () => {

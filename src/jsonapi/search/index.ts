@@ -1,3 +1,3 @@
-export * from './fields';
-export * from './query';
-export * from './search';
+export * from './fields.js';
+export * from './query.js';
+export * from './search.js';

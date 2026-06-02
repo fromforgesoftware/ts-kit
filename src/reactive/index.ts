@@ -1,1 +1,1 @@
-export { Atom, type AtomListener, type Unsubscribe } from './atom';
+export { Atom, type AtomListener, type Unsubscribe } from './atom.js';

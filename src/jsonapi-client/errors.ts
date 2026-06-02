@@ -1,4 +1,4 @@
-import { jsonapiError, type IError } from '../jsonapi';
+import { jsonapiError, type IError } from '../jsonapi/index.js';
 
 export type JsonApiError = IError;
 

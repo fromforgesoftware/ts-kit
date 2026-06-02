@@ -1,5 +1,5 @@
-import { Encoder, HttpMethod, getResourceConfig, type IResource, type ModelType } from '../jsonapi';
-import { instantiate, type AtomicOpInternal } from './api-client';
+import { Encoder, HttpMethod, getResourceConfig, type IResource, type ModelType } from '../jsonapi/index.js';
+import { instantiate, type AtomicOpInternal } from './api-client.js';
 
 function resourceType<R extends IResource>(modelType: ModelType<R>): string {
 	const cfg = getResourceConfig(modelType);

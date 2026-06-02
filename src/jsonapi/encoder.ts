@@ -1,15 +1,15 @@
-import { type AttributeProperty, getAttributeProperties } from './decorators/attribute.decorator';
-import { getLinkProperties } from './decorators/link.decorator';
-import { type MetaProperty, getMetaProperties } from './decorators/meta.decorator';
-import { getRelationshipProperties } from './decorators/relationship.decorator';
-import { getResourceConfig } from './decorators/resource.decorator';
-import { Document, type IDocument, includedKey } from './document';
-import { HttpMethod } from './http/constants';
-import { type IMeta } from './meta';
-import { type ModelType } from './model/model';
-import { type IResource } from './model/resource';
-import { relationship } from './relationships';
-import { type resource, resourceIdentifier } from './resource';
+import { type AttributeProperty, getAttributeProperties } from './decorators/attribute.decorator.js';
+import { getLinkProperties } from './decorators/link.decorator.js';
+import { type MetaProperty, getMetaProperties } from './decorators/meta.decorator.js';
+import { getRelationshipProperties } from './decorators/relationship.decorator.js';
+import { getResourceConfig } from './decorators/resource.decorator.js';
+import { Document, type IDocument, includedKey } from './document.js';
+import { HttpMethod } from './http/constants.js';
+import { type IMeta } from './meta.js';
+import { type ModelType } from './model/model.js';
+import { type IResource } from './model/resource.js';
+import { relationship } from './relationships.js';
+import { type resource, resourceIdentifier } from './resource.js';
 
 // ============================================================================
 // EncoderConfig — toggles for client (sending) vs server (responding).

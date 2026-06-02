@@ -1,5 +1,5 @@
-import { type ILinks } from './links';
-import { type IMeta } from './meta';
+import { type ILinks } from './links.js';
+import { type IMeta } from './meta.js';
 
 export type Relationships = Map<string, IRelationship>;
 

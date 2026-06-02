@@ -1,4 +1,4 @@
-import { ForgeDate } from './ForgeDate';
+import { ForgeDate } from './ForgeDate.js';
 
 /**
  * Deep-clone a form-state value, preserving `ForgeDate` instances. Use as the

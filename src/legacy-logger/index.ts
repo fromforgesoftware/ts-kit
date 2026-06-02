@@ -1,3 +1,3 @@
-export { LogLevel, type LogTransport } from './types';
-export { ConsoleTransport, NoOpTransport } from './transports';
-export { logger, Logger } from './logger';
+export { LogLevel, type LogTransport } from './types.js';
+export { ConsoleTransport, NoOpTransport } from './transports.js';
+export { logger, Logger } from './logger.js';

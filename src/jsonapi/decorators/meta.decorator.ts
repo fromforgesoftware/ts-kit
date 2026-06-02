@@ -6,7 +6,7 @@
 //     against the sub-class's @Meta decorators. Use for typed nested
 //     meta-objects (e.g. `meta.pagination = {total, page, hasNext}`).
 
-import { type ModelType } from '../model/model';
+import { type ModelType } from '../model/model.js';
 
 const META_METADATA_KEY = 'meta:metadata';
 

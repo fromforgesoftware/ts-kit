@@ -1,7 +1,7 @@
-import type { LogEntry } from './entry';
-import { formatLogEntry } from './entry';
-import { LogLevel, parseLogLevel, type LogLevelName } from './level';
-import { ConsolePublisher, type LogPublisher } from './publisher';
+import type { LogEntry } from './entry.js';
+import { formatLogEntry } from './entry.js';
+import { LogLevel, parseLogLevel, type LogLevelName } from './level.js';
+import { ConsolePublisher, type LogPublisher } from './publisher.js';
 
 export interface LogServiceOptions {
 	name?: string;

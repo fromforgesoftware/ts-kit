@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { Attribute, Decoder, Encoder, JsonApi, Relationship, Resource } from '../../../jsonapi';
+import { Attribute, Decoder, Encoder, JsonApi, Relationship, Resource } from '../../../jsonapi/index.js';
 
 // Roundtrip cover: encode a typed Resource, decode it back, assert
 // every primitive + structured attribute survives. Mirrors the

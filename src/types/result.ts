@@ -13,8 +13,8 @@
  * ```
  */
 
-import { ForgeError } from '../errors/ForgeError';
-import { logger } from '../legacy-logger';
+import { ForgeError } from '../errors/ForgeError.js';
+import { logger } from '../legacy-logger/index.js';
 
 /** Success: [data, null] — Error: [null, error] */
 export type Result<T, E = ForgeError> = [T, null] | [null, E];

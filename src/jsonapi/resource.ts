@@ -1,7 +1,7 @@
-import { type Attributes } from './attributes';
-import { type ILinks } from './links';
-import { type IMeta } from './meta';
-import { type Relationships, relationship } from './relationships';
+import { type Attributes } from './attributes.js';
+import { type ILinks } from './links.js';
+import { type IMeta } from './meta.js';
+import { type Relationships, relationship } from './relationships.js';
 
 /**
  * ResourceID — the (type, id) (or (type, lid)) tuple that uniquely

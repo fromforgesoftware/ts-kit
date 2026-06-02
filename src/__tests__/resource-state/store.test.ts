@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest';
-import { MemoryStorage } from '../../storage';
-import { ResourceStore } from '../../resource-state';
+import { MemoryStorage } from '../../storage/index.js';
+import { ResourceStore } from '../../resource-state/index.js';
 
 interface User {
 	id: string;

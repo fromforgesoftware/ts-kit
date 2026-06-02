@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { Timestamps } from '../../../jsonapi';
+import { Timestamps } from '../../../jsonapi/index.js';
 
 // Pre-rewrite resourceTimestamps.UpdatedAt() and DeletedAt() both
 // returned createdAt. This test pins the correct accessor mapping.

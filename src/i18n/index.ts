@@ -1,3 +1,3 @@
-export * from './i18n';
-export * from './interpolate';
-export * from './types';
+export * from './i18n.js';
+export * from './interpolate.js';
+export * from './types.js';

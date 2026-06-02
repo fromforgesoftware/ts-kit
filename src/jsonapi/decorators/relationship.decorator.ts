@@ -2,7 +2,7 @@
 // `target` is the related resource class — needed so the decoder can
 // instantiate the right type when expanding `included` resources.
 
-import { type ModelType } from '../model/model';
+import { type ModelType } from '../model/model.js';
 
 const RELATIONSHIP_METADATA_KEY = 'relationship:metadata';
 

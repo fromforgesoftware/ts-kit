@@ -1,3 +1,3 @@
-export * from './list-response';
-export * from './model';
-export * from './resource';
+export * from './list-response.js';
+export * from './model.js';
+export * from './resource.js';

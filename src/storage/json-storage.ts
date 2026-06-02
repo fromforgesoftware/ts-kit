@@ -1,4 +1,4 @@
-import type { SafeStorage } from './safe-storage';
+import type { SafeStorage } from './safe-storage.js';
 
 /**
  * Typed JSON view over a SafeStorage. Reads/writes go through JSON.parse /

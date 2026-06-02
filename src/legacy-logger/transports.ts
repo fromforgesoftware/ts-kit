@@ -1,4 +1,4 @@
-import { LogLevel, type LogTransport } from './types';
+import { LogLevel, type LogTransport } from './types.js';
 
 const LEVEL_NAMES: Record<LogLevel, string> = {
 	[LogLevel.ERROR]: 'ERROR',

@@ -1,6 +1,6 @@
-import { ForgeError } from './ForgeError';
-import { ValidationError } from './ValidationError';
-import type { ErrorCode } from './types';
+import { ForgeError } from './ForgeError.js';
+import { ValidationError } from './ValidationError.js';
+import type { ErrorCode } from './types.js';
 
 interface AxiosErrorLike {
 	isAxiosError?: boolean;

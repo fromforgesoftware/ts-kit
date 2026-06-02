@@ -3,7 +3,7 @@
 // @Wrapped — for typed sub-objects. The pre-rewrite split (NestedAttribute
 // outside, Wrapped inside) is gone; one decorator does both.
 
-import { Attribute } from '../decorators/attribute.decorator';
+import { Attribute } from '../decorators/attribute.decorator.js';
 
 export interface IIdentifier {
 	ID(): string;

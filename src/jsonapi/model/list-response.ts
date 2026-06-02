@@ -1,5 +1,5 @@
-import { type IMeta } from '../meta';
-import { type IResource } from './resource';
+import { type IMeta } from '../meta.js';
+import { type IResource } from './resource.js';
 
 export interface IListResponse<R extends IResource> {
 	result(): R[];

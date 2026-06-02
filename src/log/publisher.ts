@@ -1,6 +1,6 @@
-import type { LogEntry } from './entry';
-import { formatLogEntry } from './entry';
-import { LogLevel } from './level';
+import type { LogEntry } from './entry.js';
+import { formatLogEntry } from './entry.js';
+import { LogLevel } from './level.js';
 
 export interface LogPublisher {
 	log(entry: LogEntry, formatted: string): void;

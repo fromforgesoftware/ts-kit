@@ -1,6 +1,6 @@
 import { DateTime } from 'luxon';
-import { EDateFormat, FormatRegionType, getDateLocale } from './dateFormat';
-import { getOrgTimezone, getBrowserTimezone, getWeekStartForCalendar } from './config';
+import { EDateFormat, FormatRegionType, getDateLocale } from './dateFormat.js';
+import { getOrgTimezone, getBrowserTimezone, getWeekStartForCalendar } from './config.js';
 
 export interface DurationInput {
 	years?: number;

@@ -1,6 +1,6 @@
-import { Atom, type AtomListener, type Unsubscribe } from '../reactive';
-import type { SafeStorage } from '../storage';
-import type { IdAccessor, Pagination, ResourceState } from './types';
+import { Atom, type AtomListener, type Unsubscribe } from '../reactive/index.js';
+import type { SafeStorage } from '../storage/index.js';
+import type { IdAccessor, Pagination, ResourceState } from './types.js';
 
 const DEFAULT_LIMIT = 10;
 const SELECTED_KEY = 'selectedId';

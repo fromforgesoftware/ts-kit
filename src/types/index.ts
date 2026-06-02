@@ -1,1 +1,1 @@
-export { ok, err, tryCatch, configureTryCatch, type Result, type AsyncResult } from './result';
+export { ok, err, tryCatch, configureTryCatch, type Result, type AsyncResult } from './result.js';

@@ -1,12 +1,12 @@
-import { type AttributeProperty, getAttributeProperties } from './decorators/attribute.decorator';
-import { getLinkProperties } from './decorators/link.decorator';
-import { type MetaProperty, getMetaProperties } from './decorators/meta.decorator';
-import { getRelationshipProperties } from './decorators/relationship.decorator';
-import { Document, type IDocument, type IncludedResources, includedKey } from './document';
-import { ListResponse } from './model/list-response';
-import { type ModelType } from './model/model';
-import { type IResource } from './model/resource';
-import { type resource } from './resource';
+import { type AttributeProperty, getAttributeProperties } from './decorators/attribute.decorator.js';
+import { getLinkProperties } from './decorators/link.decorator.js';
+import { type MetaProperty, getMetaProperties } from './decorators/meta.decorator.js';
+import { getRelationshipProperties } from './decorators/relationship.decorator.js';
+import { Document, type IDocument, type IncludedResources, includedKey } from './document.js';
+import { ListResponse } from './model/list-response.js';
+import { type ModelType } from './model/model.js';
+import { type IResource } from './model/resource.js';
+import { type resource } from './resource.js';
 
 // ============================================================================
 // Decoder

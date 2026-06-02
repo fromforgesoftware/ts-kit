@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { Op, Query, Search } from '../../../jsonapi';
+import { Op, Query, Search } from '../../../jsonapi/index.js';
 
 // Query / Search produce the URL parameter shapes documented by
 // JSON:API §Fetching plus the filter/sort vocabulary in

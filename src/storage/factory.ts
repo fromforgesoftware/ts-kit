@@ -1,5 +1,5 @@
-import { MemoryStorage } from './memory-storage';
-import { type SafeStorage, WebStorageAdapter } from './safe-storage';
+import { MemoryStorage } from './memory-storage.js';
+import { type SafeStorage, WebStorageAdapter } from './safe-storage.js';
 
 export type StorageKind = 'local' | 'session';
 

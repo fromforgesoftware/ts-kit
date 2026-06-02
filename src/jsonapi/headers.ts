@@ -4,7 +4,7 @@
 // any media-type parameters other than `ext` and `profile`. These
 // helpers build conforming `Accept` and `Content-Type` strings.
 
-import { MEDIA_TYPE } from './spec';
+import { MEDIA_TYPE } from './spec.js';
 
 export interface ContentNegotiationOptions {
 	/** Extension URIs, e.g. ['https://jsonapi.org/ext/atomic']. */

@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from 'vitest';
-import { Atom } from '../../reactive';
+import { Atom } from '../../reactive/index.js';
 
 describe('Atom', () => {
 	it('reads/writes', () => {

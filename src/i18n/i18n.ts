@@ -1,5 +1,5 @@
-import { interpolate } from './interpolate';
-import { NAMESPACE_DELIMITER, type I18nConfig, type KeyValue, type Translation } from './types';
+import { interpolate } from './interpolate.js';
+import { NAMESPACE_DELIMITER, type I18nConfig, type KeyValue, type Translation } from './types.js';
 
 /**
  * Stateless translation engine. Safe to share between concurrent

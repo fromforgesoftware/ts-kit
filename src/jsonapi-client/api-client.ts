@@ -8,15 +8,15 @@ import {
 	type IResource,
 	type ModelType,
 	type QueryOption,
-} from '../jsonapi';
-import { ApiError, NetworkError, parseJsonApiErrors } from './errors';
+} from '../jsonapi/index.js';
+import { ApiError, NetworkError, parseJsonApiErrors } from './errors.js';
 import {
 	type HttpAdapter,
 	type HttpRequest,
 	type HttpResponse,
 	FetchAdapter,
-} from './http-adapter';
-import { appendSearch, joinPath } from './url-builder';
+} from './http-adapter.js';
+import { appendSearch, joinPath } from './url-builder.js';
 
 const JSON_API_MEDIA_TYPE = 'application/vnd.api+json';
 const ATOMIC_MEDIA_TYPE = `${JSON_API_MEDIA_TYPE};ext="https://jsonapi.org/ext/atomic"`;

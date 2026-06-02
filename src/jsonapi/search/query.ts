@@ -1,4 +1,4 @@
-import { type FieldName } from './fields';
+import { type FieldName } from './fields.js';
 
 /**
  * Filter operator vocabulary. Values match `forge/go/kit/filter`'s

@@ -1,8 +1,8 @@
-import { type ErrorSource, type IError, jsonapiError } from './errors';
-import { type ILinks } from './links';
-import { type IMeta } from './meta';
-import { type IResourceObject, resource, type resourceIdentifier } from './resource';
-import { type ISpec, type Spec } from './spec';
+import { type ErrorSource, type IError, jsonapiError } from './errors.js';
+import { type ILinks } from './links.js';
+import { type IMeta } from './meta.js';
+import { type IResourceObject, resource, type resourceIdentifier } from './resource.js';
+import { type ISpec, type Spec } from './spec.js';
 
 export const specVersion = '1.1';
 

@@ -1,2 +1,2 @@
-export type { IdAccessor, Pagination, ResourceState } from './types';
-export { ResourceStore, type ResourceStoreOptions } from './store';
+export type { IdAccessor, Pagination, ResourceState } from './types.js';
+export { ResourceStore, type ResourceStoreOptions } from './store.js';

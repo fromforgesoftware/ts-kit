@@ -1,4 +1,4 @@
-import { NetworkError } from './errors';
+import { NetworkError } from './errors.js';
 
 export interface HttpRequest {
 	method: string;

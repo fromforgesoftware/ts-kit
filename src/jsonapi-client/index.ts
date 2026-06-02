@@ -5,14 +5,14 @@ export {
 	type HeaderFactory,
 	type AtomicOpInternal,
 	type AtomicResult,
-} from './api-client';
-export { ApiError, NetworkError, parseJsonApiErrors, type JsonApiError } from './errors';
+} from './api-client.js';
+export { ApiError, NetworkError, parseJsonApiErrors, type JsonApiError } from './errors.js';
 export {
 	FetchAdapter,
 	type HttpAdapter,
 	type HttpRequest,
 	type HttpResponse,
-} from './http-adapter';
-export { Atomic, type AtomicOp } from './atomic';
-export { apiResult, type ApiResult } from './result';
-export { joinPath, appendSearch } from './url-builder';
+} from './http-adapter.js';
+export { Atomic, type AtomicOp } from './atomic.js';
+export { apiResult, type ApiResult } from './result.js';
+export { joinPath, appendSearch } from './url-builder.js';

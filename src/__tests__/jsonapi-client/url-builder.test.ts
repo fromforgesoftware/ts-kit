@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { joinPath } from '../../jsonapi-client';
+import { joinPath } from '../../jsonapi-client/index.js';
 
 describe('joinPath', () => {
 	it('keeps a root-absolute path when baseUrl is empty', () => {

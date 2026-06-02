@@ -3,21 +3,21 @@
 // and @fromforgesoftware/ts-i18n. Consumers can also cherry-pick via
 // subpath imports (./jsonapi, ./i18n, ./date, …) — see package.json.
 
-export * from './date';
-export * from './errors';
-export * from './types';
-export * from './enums';
-export * from './number';
-export * from './http';
-export * from './features';
-export * from './storage';
-export * from './i18n';
-export * from './jsonapi';
+export * from './date/index.js';
+export * from './errors/index.js';
+export * from './types/index.js';
+export * from './enums/index.js';
+export * from './number/index.js';
+export * from './http/index.js';
+export * from './features/index.js';
+export * from './storage/index.js';
+export * from './i18n/index.js';
+export * from './jsonapi/index.js';
 
 // Namespaced — both legacy-logger and log expose `LogLevel`/`Logger`
 // with different shapes. Use `legacyLogger.X` or `log.X` to disambiguate.
-export * as legacyLogger from './legacy-logger';
-export * as log from './log';
-export * as reactive from './reactive';
-export * as resourceState from './resource-state';
-export * as jsonapiClient from './jsonapi-client';
+export * as legacyLogger from './legacy-logger/index.js';
+export * as log from './log/index.js';
+export * as reactive from './reactive/index.js';
+export * as resourceState from './resource-state/index.js';
+export * as jsonapiClient from './jsonapi-client/index.js';

@@ -1,7 +1,7 @@
-export { createAxiosClient } from './axios-client';
-export { requestStore } from './requestStore';
-export { mapFetchError, mapResponseError } from './mapFetchError';
-export { getFullURL, getBaseDomain, getBrand, getEnv, getDomain } from './url';
+export { createAxiosClient } from './axios-client.js';
+export { requestStore } from './requestStore.js';
+export { mapFetchError, mapResponseError } from './mapFetchError.js';
+export { getFullURL, getBaseDomain, getBrand, getEnv, getDomain } from './url.js';
 export type {
 	AxiosClientOptions,
 	WorkairAxiosInstance,
@@ -10,4 +10,4 @@ export type {
 	AxiosInstance,
 	AxiosRequestConfig,
 	AxiosResponse,
-} from './types';
+} from './types.js';

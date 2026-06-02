@@ -31,8 +31,8 @@
  * ```
  */
 
-import { ForgeError } from './ForgeError';
-import { logger } from '../legacy-logger';
+import { ForgeError } from './ForgeError.js';
+import { logger } from '../legacy-logger/index.js';
 
 export interface ErrorInfo {
 	/** Error code (e.g., 'NOT_FOUND', 'FORBIDDEN') */

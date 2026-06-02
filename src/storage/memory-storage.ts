@@ -1,4 +1,4 @@
-import type { SafeStorage } from './safe-storage';
+import type { SafeStorage } from './safe-storage.js';
 
 export class MemoryStorage implements SafeStorage {
 	private readonly store = new Map<string, string>();

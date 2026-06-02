@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { type I18n, createI18n, type Translation } from '../../i18n';
+import { type I18n, createI18n, type Translation } from '../../i18n/index.js';
 
 function fixture(): I18n {
 	const translations: Record<string, Translation> = {

@@ -1,4 +1,4 @@
-import { ApiError, NetworkError } from './errors';
+import { ApiError, NetworkError } from './errors.js';
 
 export type ApiResult<T> =
 	| { data: T; error: null }

@@ -1,4 +1,4 @@
-import { ForgeError } from './ForgeError';
+import { ForgeError } from './ForgeError.js';
 
 /**
  * True when the error represents a backend 403 — operational permission

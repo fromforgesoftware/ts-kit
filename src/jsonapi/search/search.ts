@@ -15,7 +15,7 @@ import {
 	type QueryOption,
 	type Sorts,
 	type SparseFieldsets,
-} from './query';
+} from './query.js';
 
 const DEFAULT_LIMIT = 30;
 const DEFAULT_PAGE = 0;

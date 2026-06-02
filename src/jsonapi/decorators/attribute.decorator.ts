@@ -1,5 +1,5 @@
-import { type ModelType } from '../model/model';
-import { type Transformer } from '../transformers/transformer';
+import { type ModelType } from '../model/model.js';
+import { type Transformer } from '../transformers/transformer.js';
 
 // Property-level decorator marking a field as a JSON:API attribute.
 //

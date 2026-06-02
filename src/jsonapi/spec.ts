@@ -1,5 +1,5 @@
-import { specVersion } from './document';
-import { type IMeta } from './meta';
+import { specVersion } from './document.js';
+import { type IMeta } from './meta.js';
 
 // The JSON:API media type is application/vnd.api+json
 // MediaType media.MimeType = "application/vnd.api+json"

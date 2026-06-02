@@ -1,6 +1,6 @@
-export { ForgeDate, type DurationInput } from './ForgeDate';
-export { ForgeTime } from './ForgeTime';
-export { cloneFormStateWithForgeDate, serializeFormStateWithForgeDate } from './formClone';
+export { ForgeDate, type DurationInput } from './ForgeDate.js';
+export { ForgeTime } from './ForgeTime.js';
+export { cloneFormStateWithForgeDate, serializeFormStateWithForgeDate } from './formClone.js';
 export {
 	EDateFormat,
 	EFormatRegion,
@@ -10,7 +10,7 @@ export {
 	initializeDateLocale,
 	getDateLocale,
 	type IRegionProvider,
-} from './dateFormat';
+} from './dateFormat.js';
 export {
 	setTimezoneProvider,
 	getOrgTimezone,
@@ -23,4 +23,4 @@ export {
 	getWeekStart,
 	getWeekStartForCalendar,
 	getTimeFormat,
-} from './config';
+} from './config.js';

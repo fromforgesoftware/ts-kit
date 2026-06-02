@@ -1,5 +1,5 @@
-import { LogLevel, type LogTransport } from './types';
-import { ConsoleTransport, NoOpTransport } from './transports';
+import { LogLevel, type LogTransport } from './types.js';
+import { ConsoleTransport, NoOpTransport } from './transports.js';
 
 interface ViteEnv {
 	VITE_LOG_LEVEL?: string;
