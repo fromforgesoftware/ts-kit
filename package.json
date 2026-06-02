@@ -1,6 +1,6 @@
 {
 	"name": "@fromforgesoftware/ts-kit",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Framework-agnostic TypeScript toolkit — logger, storage, resource state, JSON:API codec + client, i18n, date, errors, http",
 	"type": "module",
 	"main": "./dist/index.js",
