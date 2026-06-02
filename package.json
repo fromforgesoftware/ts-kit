@@ -1,0 +1,103 @@
+{
+	"name": "@fromforgesoftware/ts-kit",
+	"version": "0.1.0",
+	"description": "Framework-agnostic TypeScript toolkit — logger, storage, resource state, JSON:API codec + client, i18n, date, errors, http",
+	"type": "module",
+	"main": "./dist/index.js",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js"
+		},
+		"./date": {
+			"types": "./dist/date/index.d.ts",
+			"import": "./dist/date/index.js"
+		},
+		"./errors": {
+			"types": "./dist/errors/index.d.ts",
+			"import": "./dist/errors/index.js"
+		},
+		"./enums": {
+			"types": "./dist/enums/index.d.ts",
+			"import": "./dist/enums/index.js"
+		},
+		"./features": {
+			"types": "./dist/features/index.d.ts",
+			"import": "./dist/features/index.js"
+		},
+		"./http": {
+			"types": "./dist/http/index.d.ts",
+			"import": "./dist/http/index.js"
+		},
+		"./i18n": {
+			"types": "./dist/i18n/index.d.ts",
+			"import": "./dist/i18n/index.js"
+		},
+		"./jsonapi": {
+			"types": "./dist/jsonapi/index.d.ts",
+			"import": "./dist/jsonapi/index.js"
+		},
+		"./jsonapi-client": {
+			"types": "./dist/jsonapi-client/index.d.ts",
+			"import": "./dist/jsonapi-client/index.js"
+		},
+		"./legacy-logger": {
+			"types": "./dist/legacy-logger/index.d.ts",
+			"import": "./dist/legacy-logger/index.js"
+		},
+		"./log": {
+			"types": "./dist/log/index.d.ts",
+			"import": "./dist/log/index.js"
+		},
+		"./number": {
+			"types": "./dist/number/index.d.ts",
+			"import": "./dist/number/index.js"
+		},
+		"./reactive": {
+			"types": "./dist/reactive/index.d.ts",
+			"import": "./dist/reactive/index.js"
+		},
+		"./resource-state": {
+			"types": "./dist/resource-state/index.d.ts",
+			"import": "./dist/resource-state/index.js"
+		},
+		"./storage": {
+			"types": "./dist/storage/index.d.ts",
+			"import": "./dist/storage/index.js"
+		},
+		"./types": {
+			"types": "./dist/types/index.d.ts",
+			"import": "./dist/types/index.js"
+		}
+	},
+	"files": [
+		"dist"
+	],
+	"sideEffects": false,
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com",
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/fromforgesoftware/ts-kit.git"
+	},
+	"scripts": {
+		"build": "tsc --build tsconfig.lib.json",
+		"test": "vitest run"
+	},
+	"dependencies": {
+		"axios": "^1.16.1",
+		"luxon": "^3.7.2",
+		"reflect-metadata": "^0.2.2",
+		"tslib": "^2.3.0"
+	},
+	"devDependencies": {
+		"@types/luxon": "^3.7.1",
+		"@types/node": "^25.9.1",
+		"typescript": "~5.9.2",
+		"vitest": "^3.0.0"
+	}
+}

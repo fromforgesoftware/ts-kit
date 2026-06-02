@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"rootDir": ".",
+		"sourceMap": true,
+		"moduleResolution": "bundler",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"importHelpers": true,
+		"skipLibCheck": true,
+		"baseUrl": ".",
+		"target": "ES2022",
+		"module": "ESNext",
+		"lib": ["ES2022", "DOM"],
+		"strict": true,
+		"noImplicitAny": false,
+		"strictNullChecks": false
+	},
+	"files": [],
+	"include": [],
+	"references": [{ "path": "./tsconfig.lib.json" }, { "path": "./tsconfig.spec.json" }]
+}
