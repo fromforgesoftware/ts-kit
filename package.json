@@ -97,8 +97,8 @@
 	"devDependencies": {
 		"@types/luxon": "^3.7.1",
 		"@types/node": "^25.9.1",
-		"@vitest/coverage-v8": "^3.2.6",
+		"@vitest/coverage-v8": "^4.1.8",
 		"typescript": "~5.9.2",
-		"vitest": "^3.0.0"
+		"vitest": "^4.1.8"
 	}
 }
